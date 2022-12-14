@@ -1,30 +1,39 @@
 # Project Title
 
-Simple overview of use/purpose.
+Sistem Penerimaan Siswa Baru.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Sistem Penerimaan Siswa Baru menggunakan framework Laravel, MySQL, dibantu dengan framework Bootstrap dan disesuaikan dengan kebutuhan MTs. NU Berbek Sidoarjo pada saat pengerjaan.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* PHP 7
+* MySQL
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Copy file .env.example dan rename menjadi .env
+* Sesuaikan config database dengan database yang digunakan
+* Buka Command Prompt pada folder Project dan generate key baru dengan menjalankan perintah :
+```
+php artisan key:generate
+```
+* Migrasi database dengan menjalankan perintah :
+```
+php artisan migrate
+```
+
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* Run project dengan menjalankan perintah :
 ```
-code blocks for commands
+php artisan serve
 ```
+* Buka link yang berupa ip dan port seperti http://localhost:8000/ pada browser
 
 ## Help
 
@@ -37,8 +46,8 @@ command to run if program contains helper info
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+ex. Irfansyah Rizal  
+ex. [@Email](mailto:irfansyah.rizal.20@gmail.com)
 
 ## Version History
 
@@ -51,12 +60,3 @@ ex. [@DomPizzie](https://twitter.com/dompizzie)
 ## License
 
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
