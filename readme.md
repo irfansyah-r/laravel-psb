@@ -2,9 +2,15 @@
 
 Sistem Penerimaan Siswa Baru.
 
+![Login Page](https://github.com/irfansyah-r/laravel-psb/blob/main/preview/Login.png?raw=true)
+
 ## Description
 
 Sistem Penerimaan Siswa Baru menggunakan framework Laravel, MySQL, dibantu dengan framework Bootstrap dan disesuaikan dengan kebutuhan MTs. NU Berbek Sidoarjo pada saat pengerjaan.
+
+![Dashboard](https://github.com/irfansyah-r/laravel-psb/blob/main/preview/Dashboard.png?raw=true)
+
+![Register Page](https://github.com/irfansyah-r/laravel-psb/blob/main/preview/Register.png?raw=true)
 
 ## Getting Started
 
